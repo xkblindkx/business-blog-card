@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f5f9;
+}
+h2,
+h3 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.card-header__img {
+  width: 100%;
+}
+.card-header__overlay {
+  margin-top: -57px;
+}
+.card-body {
+  margin-inline: 1.5rem;
+}
+.card-body__title {
+  color: #111729;
+}
+.card-body__text {
+  margin-block: 14px 30px;
+  line-height: 1.5;
+  color: #677489;
+}
+.card-footer {
+  position: relative;
+  display: flex;
+  padding: 2rem;
+  border-top: 1px solid #f2f5f9;
+}
+.author-avatar__img {
+  height: 35px;
+  border-radius: 2rem;
+  border: 2px solid #f2f5f9;
+  margin: 0.2rem;
+}
+.author-info {
+  margin-left: 0.5rem;
+}
+.author-info__name {
+  font-size: 0.9rem;
+}
+.author-info__position {
+  font-size: 0.7rem;
+  color: #677489;
+}
